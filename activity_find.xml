@@ -1,0 +1,92 @@
+// UI for find blood activity
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+
+    tools:context=".FindActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#93C5DC"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Enter the Details to find required blood group"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/teal_700"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Phone"
+            android:ems="10"
+            android:textColorHint="@color/teal_700"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Address"
+            android:textColorHint="@color/teal_700"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/Bldgroup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/teal_700"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Blood Group" />
+
+        <Button
+            android:id="@+id/btnSbmit"
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="#DD6D65"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
